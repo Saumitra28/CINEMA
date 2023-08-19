@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- parralax section start -->
+    <section>
+      <div class="bcg">
+        <h2>CINEMA</h2>
+        <img src="ObjectRemoved.jpg" class="background" />
+        <img src="Removed.png" class="object" />
+        <a href="#next-page" class="scroll-button">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+    <!-- parralax section ends -->
+
+    <!-- header -->
+    <div id="next-page">
+      <div class="header">
+        <div class="search">
+          <input type="text" placeholder="Search Movies" id="btn" />
+          <button id="sec-btn">Search</button>
+        </div>
+        <div class="category-btn">Categories</div>
+        <div class="heart-btn">
+          <i class="fa-solid fa-2x fa-heart" id="fav-btn"></i>
+        </div>
+      </div>
+    </div>
+    <!-- genre section -->
+    <div class="genre-container">
+      <div class="genres"></div>
+      <div class="clear-button-container"></div>
+    </div>
+
+    <!--(search) section starts-->
+    <div class="container">
+      <div class="movie-container searched">
+        <h1></h1>
+        <div class="search-content">
+          <!-- <div class="card" data-id="123">
+            <div class="image">
+              <img src="https://unsplash.it/500/1000" alt="" />
+            </div>
+            <div class="details">
+              <h2>Movie Name</h2>
+              <div class="each-detail">
+                <span>Rate: </span>
+                <span>10/10</span>
+              </div>
+              <div class="each-detail">
+                <span>Release Date: </span>
+                <span>16-07-2023</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- starting(search & fav) section ends-->
+
+    <!-- trending section -->
+    <div class="movie-container trending">
+      <h1>Trending</h1>
+      <br /><br />
+      <div class="trending-content">
+        <div class="card" data-id="123">
+          <div class="image">
+            <img src="https://unsplash.it/500/1000" alt />
+          </div>
+          <div class="details">
+            <h2>Movie Name</h2>
+            <div class="each-detail">
+              <span>Rate: </span>
+              <span>10/10</span>
+            </div>
+            <div class="each-detail">
+              <span>Release Date: </span>
+              <span>16-07-2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- popup-container-starts -->
+    <div class="popup-container">
+      <span class="x-icon">&#10006;</span>
+      <div class="content">
+        <div class="left">
+          <div class="poster-img">
+            <img src="https://unsplash.it/500/1000" alt />
+          </div>
+          <div class="left-single-info">
+            <span>Add to favourities</span>
+            <span class="heart-icon">&#9829;</span>
+          </div>
+        </div>
+        <div class="right">
+          <h1>Movie Title</h1>
+          <h3>Movie Tagline</h3>
+          <div class="single-info-container">
+            <div class="single-info">
+              <span>Language:&nbsp;&nbsp;&nbsp;</span>
+              <span>English</span>
+            </div>
+            <div class="single-info">
+              <span>Length:&nbsp;&nbsp;&nbsp;</span>
+              <span>120 minutes</span>
+            </div>
+            <div class="single-info">
+              <span>Rating:&nbsp;&nbsp;&nbsp;</span>
+              <span>10/10</span>
+            </div>
+            <div class="single-info">
+              <span>Budget:&nbsp;&nbsp;&nbsp;</span>
+              <span>129000</span>
+            </div>
+            <div class="single-info">
+              <span>Release Date:&nbsp;&nbsp;&nbsp;</span>
+              <span>07-6-2023</span>
+            </div>
+          </div>
+          <div class="genere">
+            <h2>Generes</h2>
+            <ul>
+              <li>Action</li>
+              <li>Drama</li>
+              <li>Romance</li>
+            </ul>
+          </div>
+          <div class="overview">
+            <h2>Overview</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur nesciunt dicta consectetur. Nobis accusamus natus odio
+              reprehen.
+            </p>
+          </div>
+          <div class="trailer">
+            <h2>Trailer</h2>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Kmo8NLKkfcQ"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="wrapper">
+            <div class="cast-row-1">
+              <!-- Cast member cards will be appended here -->
+            </div>
+            <div class="cast-row-2">
+              <!-- Additional cast member cards will be appended here if needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popup-container-ends -->
+    <br /><br /><br /><br /><br /><br /><br />
+    <hr />
+    <br />
+    <br /><br />
+    <div class="fav-container-page" id="favorites-section">
+      <h1>Favorities</h1>
+      <div class="fav-movies-content">
+        <!-- <div class="card" data-id="123">
+          <div class="image">
+            <img src="https://unsplash.it/500/1000" alt="" />
+          </div>
+          <div class="details">
+            <h2>Movie Name</h2>
+            <div class="each-detail">
+              <span>Rate: </span>
+              <span>10/10</span>
+            </div>
+            <div class="each-detail">
+              <span>Release Date: </span>
+              <span>16-07-2023</span>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="back-to-top">
+      <a href="#top" class="icons">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <footer class="foot">
+      &copy; Developed by Saumitra Upadhyay
+      <div class="links">
+        <a
+          target="_blank"
+          class="icons"
+          href="https://www.instagram.com/_.saumitra._/"
+          ><i class="fa-brands fa-instagram fa-xl"></i
+        ></a>
+        <a
+          target="_blank"
+          class="icons"
+          href="https://www.linkedin.com/in/saumitra-upadhyay-39a742210/"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a target="_blank" class="icons" href="https://github.com/Saumitra28"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+      </div>
+    </footer>
+    <div class="loader">
+      <div class="loader-spinner"></div>
+    </div>
+
+    <script src="scrip.js"></script>
+  </body>
+</html>
